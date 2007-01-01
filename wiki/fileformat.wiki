@@ -10,9 +10,18 @@ The python library of this project, _nk2parser.py_ successfully pulls out *names
 
 1. Luckily, the most important data is also most easy to pull out. The email addresses are stored as ascii strings, so by just running _strings_ on the file, you'll get all the addresses.
 2. To get the names assosciated with the addresses, you have to dig deeper.
-    * 
+
+== NUL-byte separated strings ==
+
+== Record separators ==
+
+== SMTP addresses ==
+
 
 
 = File location = 
 
+
 = References =
+http://filext.com/detaillist.php?extdetail=NK2
+http://www.nk2.info/
