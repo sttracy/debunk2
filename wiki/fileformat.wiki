@@ -4,7 +4,7 @@
 
 _Microsoft Outlook_ stores its autocomplete data in a specially-crafted, binary file (NK2). Its format is *not documented*, presumably because it is regarded as an internal data structure to the program. Still, the contents of that file are often valuable, and are definately worth keeping. 
 
-I have successfully pulled out *names* and *email addresses* from the file. This is what I've learned about the file format.
+The python library of this project, _nk2parser.py_ successfully pulls out *names* and *email addresses* from the file. Here's how.
 
 = Details =
 
