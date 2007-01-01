@@ -1,0 +1,18 @@
+#The NK2 file format.
+
+= Introduction =
+
+_Microsoft Outlook_ stores its autocomplete data in a specially-crafted, binary file (NK2). Its format is *not documented*, presumably because it is regarded as an internal data structure to the program. Still, the contents of that file are often valuable, and are definately worth keeping. 
+
+I have successfully pulled out *names* and *email addresses* from the file. This is what I've learned about the file format.
+
+= Details =
+
+1. Luckily, the most important data is also most easy to pull out. The email addresses are stored as ascii strings, so by just running _strings_ on the file, you'll get all the addresses.
+2. To get the names assosciated with the addresses, you have to dig deeper.
+    * 
+
+
+= File location = 
+
+= References =
