@@ -23,5 +23,8 @@ The python library of this project, _nk2parser.py_ successfully pulls out *names
 
 
 = References =
-http://filext.com/detaillist.php?extdetail=NK2
-http://www.nk2.info/
+    http://filext.com/detaillist.php?extdetail=NK2
+
+    http://www.nk2.info/
+
+    http://www.ingressor.com/about_nk2_files.htm
