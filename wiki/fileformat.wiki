@@ -12,23 +12,17 @@ The python library of this project, _nk2parser.py_ successfully pulls out *names
 
 At the time of writing, the author is aware of the following resources withing the file:
 
-* Display name: name, or e-mail address if no name was supplied
-
-* Delivery Method: SMTP or Exchange
-
-* Address: SMTP address or MS addressing
+  * Display name: name, or e-mail address if no name was supplied
+  * Delivery Method: SMTP or Exchange
+  * Address: SMTP address or MS addressing
 
 According to internet sources[1], there's more:
 
-* Record type: SMTP, Exchange, Fax, or MAPIPDL (Distribution List)
-
-* Alias (and smtp email address or GAL reference)
-
-* Exchange x500 address
-
-* x509 PKI (Public Key Infrastructure)
-
-* Various other data which may be populated from the Active Directory
+  * Record type: SMTP, Exchange, Fax, or MAPIPDL (Distribution List)
+  * Alias (and smtp email address or GAL reference)
+  * Exchange x500 address
+  * x509 PKI (Public Key Infrastructure)
+  * Various other data which may be populated from the Active Directory
 
 
 
@@ -52,10 +46,7 @@ According to internet sources[1], there's more:
 
 = References =
 
-* [1]: http://www.ingressor.com/about_nk2_files.htm 
-
-* http://www.iwriteiam.nl/Ha_HTCABFF.html
-
-* http://filext.com/detaillist.php?extdetail=NK2
-
-* http://www.nk2.info/
+  * [1]: http://www.ingressor.com/about_nk2_files.htm 
+  * http://www.iwriteiam.nl/Ha_HTCABFF.html
+  * http://filext.com/detaillist.php?extdetail=NK2
+  * http://www.nk2.info/
