@@ -8,14 +8,36 @@ The python library of this project, _nk2parser.py_ successfully pulls out *names
 
 = Details =
 
-1. Luckily, the most important data is also most easy to pull out. The email addresses are stored as ascii strings, so by just running _strings_ on the file, you'll get all the addresses.
-2. To get the names assosciated with the addresses, you have to dig deeper.
+== Contents ==
+
+At the time of writing, the author is aware of the following resources withing the file:
+
+* Display name: name, or e-mail address if no name was supplied
+* Delivery Method: SMTP or Exchange
+* Address: SMTP address or MS addressing
+
+According to internet sources[1], there's more:
+
+* Record type: SMTP, Exchange, Fax, or MAPIPDL (Distribution List)
+* Alias (and smtp email address or GAL reference)
+* Exchange x500 address
+* x509 PKI (Public Key Infrastructure)
+* Various other data which may be populated from the Active Directory
+
+
 
 == NUL-byte separated strings ==
 
 == Record separators ==
 
 == SMTP addresses ==
+
+= Unraveling the stuff =
+
+1. Luckily, the most important data is also most easy to pull out. The email addresses are stored as ascii strings, so by just running _strings_ on the file, you'll get all the addresses.
+
+2. To get the names assosciated with the addresses, you have to dig deeper.
+
 
 
 
@@ -24,10 +46,7 @@ The python library of this project, _nk2parser.py_ successfully pulls out *names
 
 = References =
 
-    http://www.iwriteiam.nl/Ha_HTCABFF.html
-
-    http://filext.com/detaillist.php?extdetail=NK2
-
-    http://www.nk2.info/
-
-    http://www.ingressor.com/about_nk2_files.htm
+* [1]: http://www.ingressor.com/about_nk2_files.htm 
+* http://www.iwriteiam.nl/Ha_HTCABFF.html
+* http://filext.com/detaillist.php?extdetail=NK2
+* http://www.nk2.info/
