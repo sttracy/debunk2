@@ -1,5 +1,5 @@
+#summary The NK2 file format explained.
 #labels Featured,Phase-Implementation
-#The NK2 file format.
 
 = Introduction =
 
