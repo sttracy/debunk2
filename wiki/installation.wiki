@@ -3,7 +3,7 @@
 
 = Introduction =
 
-The program is written in [http://python.org/ python] script, and turned into a pretty [http://trolltech.com/qt Qt gui] by using [http://google.com/?q=pyqt4 PyQt4]. 
+The program is written in [http://python.org/ python] script, and turned into a pretty [http://www.trolltech.com/qt Qt gui] by [http://google.com/?q=pyqt4 PyQt4]. 
 
 All of these are requirements for running this program.
 
