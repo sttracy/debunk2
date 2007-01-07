@@ -1,0 +1,28 @@
+#summary How to install the program
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+The program is written in [http://python.org/ python] script, and turned into a pretty [http://trolltech.com/qt Qt gui] by using [http://google.com/?q=pyqt4 PyQt4]. 
+
+All of these are requirements for running this program.
+
+== Source ==
+
+On all platforms, the program can be installed by downloading the zip file, getting all requirements and running the `debunk2.py` file within the zip file.
+
+There are installers for some platforms: 
+
+== Linux ==
+
+=== Debian / Ubuntu ===
+
+  # Get the current .deb from the project pages
+  # Install using `sudo dpkg -i <debunk-0.x.deb>
+
+
+== Windows ==
+
+Creating this little program as an installer for Windows is a bit tricky. The Qt and Python dependencies are very heavy, and distributing them all together would mean an archive of 19 MB, way too heavy for a tiny program like this.
+
+There is currently no installer for Windows for this reason. Any ideas on how to solve this are appreciated.
