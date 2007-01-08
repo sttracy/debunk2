@@ -3,7 +3,7 @@
 
 = Introduction =
 
-The program is written in [http://python.org/ python] script, and turned into a pretty [http://www.trolltech.com/qt Qt gui] by [http://google.com/?q=pyqt4 PyQt4]. 
+The program is written in [http://python.org/ python] script, and turned into a pretty [http://www.trolltech.com/qt Qt gui] by [http://www.riverbankcomputing.co.uk/pyqt PyQt4]. 
 
 All of these are requirements for running this program.
 
@@ -18,11 +18,21 @@ There are installers for some platforms:
 === Debian / Ubuntu ===
 
   # Get the current .deb from the project pages
-  # Install using `sudo dpkg -i <debunk-0.x.deb>
+  # Install using `sudo dpkg -i <debunk-0.x.deb>`
 
 
 == Windows ==
 
+=== Manual install ===
+
+  # Get [http://python.org/ The Python interpreter], and install it
+  # Get [http://www.trolltech.com/qt Qt, Open Source edition] and install it
+  # Get [http://www.riverbankcomputing.co.uk/pyqt/download.php The PyQt4 package], and install it
+  # Get the current .zip from the project front page
+  # Run start.bat
+
+=== Slick install ===
+
 Creating this little program as an installer for Windows is a bit tricky. The Qt and Python dependencies are very heavy, and distributing them all together would mean an archive of 19 MB, way too heavy for a tiny program like this.
 
-There is currently no installer for Windows for this reason. Any ideas on how to solve this are appreciated.
+There is currently no installer for Windows for this reason. Sorry. Any ideas on how to solve this are appreciated.
