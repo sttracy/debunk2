@@ -1,4 +1,4 @@
-#what you need to help the hack
+#summary how to help the hack
 
 === Requirements ===
 
