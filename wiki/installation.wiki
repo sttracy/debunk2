@@ -11,14 +11,8 @@ http://debunk2.googlecode.com/svn/trunk/debunk2-screenshot.png
 
 == Windows ==
 
-=== Manual install ===
-
-  # Get the current windows zip archive from the project pages
-  # Unpack the archive and run `debunk2.exe`
-
-=== Slick install ===
-
-As of 2007-01-24, there is no installer, but work to assemble one (and to cut down on the size of the resulting archive) is under way.
+  # Get the installer (`debunk2-xx.installer.exe`) from the project pages
+  # Double click to install
 
 == Linux ==
 
