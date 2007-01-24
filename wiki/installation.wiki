@@ -24,4 +24,4 @@ http://debunk2.googlecode.com/svn/trunk/debunk2-screenshot.png
 
 == Source ==
 
-On all platforms, the program can be installed by downloading the zip file, getting all requirements and running the `debunk2.py` file within the zip file.
+On all platforms, the program can be installed by downloading the zip file (`debunk2-xx.source.zip`), getting [HackingDebunk2 all requirements] and running the `debunk2.py` file within the zip file.
