@@ -27,11 +27,8 @@ There are installers for some platforms:
 
 === Manual install ===
 
-  # Get [http://python.org/ The Python interpreter], and install it
-  # Get [http://www.trolltech.com/qt Qt, Open Source edition] and install it
-  # Get [http://www.riverbankcomputing.co.uk/pyqt/download.php The PyQt4 package], and install it
-  # Get the current .zip from the project front page, and unzip it
-  # Edit and run start.bat
+  # Get the current windows zip archive from the project pages
+  # Unpack the archive and run `debunk2.exe`
 
 === Slick install ===
 
