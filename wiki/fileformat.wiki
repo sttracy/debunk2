@@ -1,4 +1,4 @@
-﻿#summary The NK2 file format explained.
+﻿﻿#summary The NK2 file format explained.
 #labels Featured,Phase-Implementation
 
 = Introduction =
@@ -64,16 +64,14 @@ This isn't perfect, but it gets the job done.
 
 {{{
 
-  split1 = [x.replace(NUL, '') for x in y.split(NUL*3)] # SPLIT1: split record into something useful by separat ing at triple NULs
-  rec = nk2addr()
+  split1 = [x.replace(NUL, '') for x in y.split(NUL*3)] # SPLIT1: split record into something useful by separating at triple NULs
   if split1[1] != 'SMTP': # SPLIT1 failed
     split2 = [x.replace(NUL, '') for x in y.split(NUL*1)] # SPLIT2: split again, this time using single NULs as delimiter
 
 }}}
 
 
-*Most* field strings are sprinkled with NUL-bytes (every second
-byte). This is how nk2parser.py does it:
+*Most* field strings are sprinkled with NUL-bytes (every second byte, actually). This is how nk2parser.py does it:
 
 {{{
 
@@ -84,6 +82,8 @@ byte). This is how nk2parser.py does it:
 }}}
 
 == SMTP addresses ==
+
+prefixed with "SMTP:"
 
 = File location = 
 
