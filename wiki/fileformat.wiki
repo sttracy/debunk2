@@ -1,7 +1,5 @@
 ﻿#summary The NK2 file format explained.
 
-#labels Featured,Phase-Implementation
-
 = Introduction =
 
 _Microsoft Outlook_ stores its autocomplete data in a specially-crafted, binary file (NK2). Its format is *not documented*, presumably because it is regarded as an internal data structure to the program. Still, the contents of that file are often valuable, and are definately worth keeping. 
