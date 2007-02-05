@@ -1,0 +1,30 @@
+debunk2 (0.5) unstable; urgency=low
+
+  * Fix: automatically find and load NK2 files (Vista ready)
+  * Feature: generate pretty names from email addresses
+  * Feature: pull organization out from email addresses
+  * Fix: display About... button properly
+  * Fix: output encoding is now iso-8859-1 and not utf8
+  * New: startup script makes for easier win32 packaging
+
+ -- Håvard Dahle <havard@dahle.no>  Mon,  5 Feb 2007 01:50:52 +0100
+
+debunk2 (0.4) unstable; urgency=low
+
+  * New feature: export to VCard.  
+
+ -- Håvard Dahle <hadahl@hadahl>  Tue,  9 Jan 2007 01:05:17 +0100
+
+debunk2 (0.3) unstable; urgency=low
+
+  * A proper about box
+  * Runs on win32 for real (but still needs Qt, PyQt and Python installed)
+  * Lots of small stuff 
+
+ -- Håvard Dahle <hadahl@hadahl>  Mon,  8 Jan 2007 21:27:13 +0100
+
+debunk2 (0.2) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Håvard Dahle <havard@dahle.no>  Sun,  7 Jan 2007 12:12:59 +0100
